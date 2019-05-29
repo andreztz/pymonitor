@@ -21,7 +21,7 @@ Linux:
 ```sh
 # https://www.devdungeon.com/content/creating-systemd-service-files
 
-sudo ln -sf /home/ztz/pymonitor/pymonitor.service /etc/systemd/system/
+sudo ln -sf /home/user/pymonitor/pymonitor.service /etc/systemd/system/
 ```
 
 Windows:
