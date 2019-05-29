@@ -1,0 +1,2 @@
+python-libxdo==0.1.2a1
+tinymongo==0.2.0

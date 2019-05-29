@@ -1,0 +1,13 @@
+[Unit]
+Description=Time logging
+After=graphical.target
+
+[Service]
+Type=simple
+User=<user>
+WorkingDirectory=</home/user>
+ExecStart=</home/user/pymonitor/daemon.sh>
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
