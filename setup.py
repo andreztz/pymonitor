@@ -35,7 +35,7 @@ package = {
     "license": "my_license",
     "packages": find_packages(),
     "install_requires": required(),
-    "entry_points": {"console_scripts": ["pymonitor=src.__main__:main"]},
+    "entry_points": {"console_scripts": ["pymonitor=pymonitor.__main__:main"]},
     "classifiers": [
         # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
         "Development Status :: 1 - Planning",
