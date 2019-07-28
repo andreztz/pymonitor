@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-while sleep 10; do
-    # ~/pymonitor/app.py
-    pymonitor
+while true; do
 
+    pymonitor;
+    sleep 10;
 done
